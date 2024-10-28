@@ -43,5 +43,22 @@
             mebenroth@mail.bradley.edu<br><br>
             <a href="https://www.linkedin.com/in/cassidy-ebenroth-379b4132a/">Linkedin</a>
         </p>
+        <h2>Javascript requirement:</h2>
+        <p id="face">:|</p>
+        <button id="happy">happy</button>
+        <button id="sad">sad</button>
+        <script>
+            const face =document.getElementById("face")
+            const happy =document.getElementById("happy")
+            const sad =document.getElementById("sad")
+
+            happy.addEventListener("click", ()=>{
+                face.innerHTML = ":)"
+            })
+            
+            sad.addEventListener("click", ()=>{
+                face.innerHTML = ":("
+            })
+        </script>
     </body>
 </html>
